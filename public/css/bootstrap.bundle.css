@@ -1,0 +1,28 @@
+.navbar-expand-lg .navbar-nav {
+    
+    margin-right: 200px;
+}
+.account .dropdown img{
+    width: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.account .dropdown-menu{
+    width: 288px;
+}
+.account ul .profile{
+    border-bottom: 1px solid #ced6d7;
+}
+.account ul .profile .text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.account ul .profile .hello .box .span{
+    font-size: 1.4rem;
+}
+.account ul li span{
+    margin-left: 5px;
+    margin-right: 10px;
+}
