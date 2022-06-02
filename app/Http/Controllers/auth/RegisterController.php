@@ -13,7 +13,7 @@ class RegisterController extends Controller
     public function registerUser(Request $request){
         $data = $this->validate(request(),[
             'name' => 'required',
-            'email' => 'required',
+            'email' => 'required|unique:users',
             'password' => 'required',
 
 
